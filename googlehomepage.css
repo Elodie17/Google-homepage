@@ -1,0 +1,49 @@
+#container
+{
+    margin: -100px;
+	padding: 109px;
+}
+
+
+#header
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-end; 
+	margin: 10px;	
+}
+.menulink
+{   
+	margin-left: 10 px; 
+}
+
+.menubutton
+{
+	flex-direction: column-reverse;
+	display: flex;
+	background-color: #black;
+	border-radius: 5px;
+	padding:8px; 
+}
+
+a
+{
+	text-decoration: none;
+	color: #636363;
+	margin: 10px;
+}
+
+#content
+{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	height: 80vh
+	padding: 109px 0px 0px;
+}
+
+
+
+
